@@ -8,12 +8,13 @@ public class CiftSayilar {
             sayi = girdi.nextInt();
 
             if(sayi % 2 == 1){
+                System.out.println("Tek sayi girildi, program durdu.");
                 break;
             }
             if(sayi % 2 == 0 && sayi % 4 == 0){
                 toplam += sayi;
             }
         }
-        System.out.println(toplam);
+        System.out.println("Toplam sayiniz :" + toplam);
     }
 }
